@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.homepage{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(8, 8, 20);
+}
+.logo{
+    font-size: 30px;
+    height: 60px;
+}
+.pinabout{
+    line-height: 130%;
+    color: rgb(224, 168, 211);
+}
+nav{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 25px 45px;
+    /* height: 80px; */
+}
+.navbar a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar a:hover{
+    color: rgb(234, 162, 66);
+    position: absolute;
+    top: -155px;
+}
+main{
+    color: aliceblue;
+    position: absolute;
+    top: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+}
+.about{
+    height: fit-content;
+    padding: 25px;
+    text-align: right;
+    max-width: 700px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+.hi{
+    font-size: 25px;
+    color: rgb(237, 14, 51);
+}
+.name{
+    font-size: 45px;
+    color: gold;
+    padding: 8px;
+    animation: backwards 2s linear step-end;
+}
+.welcome{
+    font-size: 30px;
+    color: rgb(7, 229, 229);
+}
+.myphoto{
+    width: 400px;
+    height: 80%;
+    z-index: 10;
+}
+.pinabout{
+    margin-bottom: 12px;
+    background-blend-mode: hard-light;
+}
+.socialmediaicons{
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+}
+.socialmediaicons ol{
+    list-style: none;
+    display: flex;
+    width: 80%;
+    margin-top: 12px;
+    position: relative;
+    right: 0;
+    justify-content: end;
+
+}
+
+.socialmediaicons ol li a img{
+    height: 32px;
+    width: 32px;
+    background-color: rgb(8, 8, 20);
+}
+.socialmediaicons ol li a{
+    margin-right: 25px;
+    text-decoration: underline;
+}
+.socialmediaicons ol li a:hover{
+    background-color: red;
+}
+.myimg{
+    position: absolute ;
+    bottom: -153px;
+    height: 650px;
+}
+.logo{
+    height: 100px;
+}
